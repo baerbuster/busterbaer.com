@@ -1,7 +1,7 @@
-import './Logo.css'
+import LogoPic from './assets/Buster Baer Logo no name.png'
 
 function Logo() {
-  return <span className="root">Electric Cool Jelly</span>
+  return <img src={LogoPic} className="App-logo" />
 }
 
 export default Logo
