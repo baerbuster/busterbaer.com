@@ -467,12 +467,9 @@
 }
 
 .App-dialogue-submit {
-  position: absolute;
   height: 3svh;
   width: 10svh;
-  bottom: 50%;
-  transform: translateY(50%);
-  right: 30%;
+  margin-left: 2svh;
   background-color: #00b41b;
   border: 0.3svh solid #000;
   box-sizing: border-box;
@@ -480,7 +477,7 @@
   border-radius: 2svh;
   font-family: Verdana, Geneva, sans-serif;
   color: #000;
-  display: flex;
+  display: inline-flex;
   font-size: 2svh;
   align-items: center;
   justify-content: center;

@@ -303,12 +303,12 @@ function App() {
           </div>
           <div className={hideGuide ? 'App-dialogue-dialogue App-dialogue-dialogue-hidden' : 'App-dialogue-dialogue'}>
             {!hideGuide && printDialogue()}
-          </div>
-          <div
-            className={showSubmit ? 'App-dialogue-submit' : 'App-dialogue-submit App-dialogue-submit-hidden'}
-            onClick={clickSubmit}
-          >
-            Submit
+            <div
+              className={showSubmit ? 'App-dialogue-submit' : 'App-dialogue-submit App-dialogue-submit-hidden'}
+              onClick={clickSubmit}
+            >
+              Submit
+            </div>
           </div>
         </div>
       </div>
