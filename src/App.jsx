@@ -3,7 +3,7 @@ import './App.css'
 import Logo from './Logo'
 import thinker from './assets/thinker.png'
 import guide from './assets/exclaimer.png'
-import family from './assets/Family.jpg'
+import family from './assets/Family.JPG'
 import Typewriter from './Typewriter'
 import script from './script'
 
