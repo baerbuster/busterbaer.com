@@ -405,6 +405,35 @@
   z-index: 4;
   transform: translateY(0);
   transition: transform 100ms linear 500ms;
+  clip-path: polygon(
+    0% 3.1%,
+    6% 0.5%,
+    10.8% 5.8%,
+    12% 0%,
+    14.7% 0%,
+    19.9% 15.7%,
+    40.6% 33%,
+    51% 37.2%,
+    60.6% 36.1%,
+    66.5% 39.3%,
+    68.1% 15.2%,
+    70.5% 8.9%,
+    75.3% 2.6%,
+    82.5% 2.1%,
+    86.5% 4.7%,
+    90% 11.5%,
+    90.8% 38.2%,
+    100% 36.1%,
+    100% 69.1%,
+    93.2% 90.1%,
+    92.8% 100%,
+    59.8% 100%,
+    59.4% 73.8%,
+    56.2% 59.2%,
+    30.7% 45.5%,
+    13.9% 26.7%,
+    0% 17.3%
+  );
 }
 
 .App-guide-tucked {
@@ -494,8 +523,12 @@
   display: none;
 }
 
-a, a:link, a:visited, a:hover, a:active {
-    color: inherit;            /* Prevents blue/purple/red color changes */
-    text-decoration: inherit;   /* Prevents automatic underlining */
-    cursor: pointer;           /* Keeps the standard hand pointer icon */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit; /* Prevents blue/purple/red color changes */
+  text-decoration: inherit; /* Prevents automatic underlining */
+  cursor: pointer; /* Keeps the standard hand pointer icon */
 }
