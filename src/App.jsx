@@ -158,8 +158,11 @@ function App() {
               <div className="App-nav-arrow">{'\u2192'}</div>
             </li>
             <li>
-              Resume <br />
-              <div className="App-nav-arrow">{'\u2192'}</div>
+              <a href="https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9">
+                Resume
+                <br />
+                <div className="App-nav-arrow">{'\u2192'}</div>
+              </a>
             </li>
           </ul>
         </nav>

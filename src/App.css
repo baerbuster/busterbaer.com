@@ -304,12 +304,19 @@
 
 .App-footer-question {
   font-size: 10svw;
+  color: #e9dbc9;
+  background-color: #172b56;
+  text-shadow: 25px 5px 8px #0c162c;
+  box-shadow: 25px 5px 8px #0c162c inset;
 }
 
 .App-footer-col-1-mid {
   background-color: #172b56;
   color: #e9dbc9;
   padding: 20px 10px 40px;
+  background-color: #172b56;
+  text-shadow: 25px 5px 8px #0c162c;
+  box-shadow: 25px 5px 8px #0c162c inset;
 }
 
 .App-footer-family {
@@ -328,6 +335,9 @@
   color: #e9dbc9;
   padding: 20px 10px 0;
   flex: 1;
+  background-color: #172b56;
+  text-shadow: 10px 5px 8px #0c162c;
+  box-shadow: 10px 5px 8px #0c162c inset;
 }
 
 .App-footer-col-2-bottom {
@@ -485,4 +495,10 @@
 
 .hide {
   display: none;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: inherit;            /* Prevents blue/purple/red color changes */
+    text-decoration: inherit;   /* Prevents automatic underlining */
+    cursor: pointer;           /* Keeps the standard hand pointer icon */
 }
